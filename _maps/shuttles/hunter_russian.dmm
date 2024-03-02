@@ -1,0 +1,567 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ap" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/hunter)
+"aL" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/mecha_wreckage/ripley,
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"eG" = (
+/obj/machinery/light/small/directional/east,
+/obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"fj" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"gx" = (
+/obj/machinery/door/airlock/security/glass,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+"if" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/item/weldingtool/largetank,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/hunter)
+"ii" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"kt" = (
+/obj/machinery/portable_atmospherics/scrubber/huge,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"ku" = (
+/obj/machinery/power/smes,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"kx" = (
+/obj/structure/table,
+/obj/item/storage/fancy/cigarettes/cigars/cohiba{
+	pixel_y = 6
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/hunter)
+"kP" = (
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"kY" = (
+/turf/template_noop,
+/area/shuttle/hunter)
+"lb" = (
+/obj/effect/mob_spawn/human/fugitive/russian{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"nx" = (
+/obj/effect/mob_spawn/human/fugitive/russian{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"qP" = (
+/obj/effect/turf_decal/arrows{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+"wk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/hunter)
+"xi" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/reagent_dispensers/watertank,
+/obj/item/reagent_containers/glass/bucket,
+/obj/item/mop,
+/obj/item/storage/bag/trash{
+	pixel_x = 6
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/hunter)
+"AU" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/crate{
+	icon_state = "crateopen"
+	},
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"Bh" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/drinks/bottle/vodka,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/hunter)
+"Br" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+"BX" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/hunter)
+"CA" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+"Dm" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/crate/coffin{
+	icon_state = "coffinopen"
+	},
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"ET" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/large{
+	icon_state = "crittercrate"
+	},
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"HM" = (
+/obj/item/book/manual/ripley_build_and_repair,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+"Io" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/power/engine_capacitor_bank{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
+/area/shuttle/hunter)
+"Iv" = (
+/obj/structure/cable,
+/turf/closed/wall,
+/area/shuttle/hunter)
+"JA" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"JE" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate{
+	icon_state = "crateopen"
+	},
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"JI" = (
+/turf/closed/wall,
+/area/shuttle/hunter)
+"Kd" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/crate{
+	icon_state = "crateopen"
+	},
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"Kl" = (
+/obj/machinery/door/airlock/security/glass,
+/obj/structure/fans/tiny,
+/obj/docking_port/stationary{
+	dwidth = 11;
+	height = 16;
+	id = "pirateship_home";
+	name = "Deep Space";
+	width = 17
+	},
+/obj/docking_port/mobile{
+	id = "huntership";
+	movement_force = list("KNOCKDOWN"=0,"THROW"=0);
+	name = "hunter shuttle";
+	rechargeTime = 1800
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+"Mq" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"MJ" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/hunter)
+"MM" = (
+/obj/effect/mob_spawn/human/fugitive/russian{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+"Ov" = (
+/obj/machinery/shuttle/engine/ion{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/hunter)
+"OP" = (
+/obj/machinery/computer/camera_advanced{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+"Pz" = (
+/turf/template_noop,
+/area/template_noop)
+"QI" = (
+/obj/machinery/door/airlock/security/glass,
+/obj/structure/fans/tiny,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+"Rl" = (
+/obj/effect/turf_decal/arrows{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+"RJ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/hunter)
+"TV" = (
+/obj/machinery/computer/shuttle_flight/hunter{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+"Ur" = (
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/hunter)
+"Uu" = (
+/obj/machinery/door/airlock/security/glass,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+"Ux" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+"UA" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"US" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/engineering{
+	icon_state = "engi_crateopen"
+	},
+/turf/open/floor/plating,
+/area/shuttle/hunter)
+"Vd" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+"Vk" = (
+/obj/machinery/light/small/directional,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+"VH" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+"Wm" = (
+/obj/machinery/fugitive_capture,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/hunter)
+"WF" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/hunter)
+"WV" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/hunter)
+
+(1,1,1) = {"
+Pz
+Pz
+Pz
+Pz
+Pz
+Pz
+Pz
+Pz
+Pz
+Pz
+Pz
+Pz
+Pz
+Pz
+Pz
+Pz
+"}
+(2,1,1) = {"
+Pz
+Pz
+Pz
+Pz
+Pz
+Pz
+JI
+Ov
+Ov
+JI
+Pz
+Pz
+Pz
+Pz
+Pz
+Pz
+"}
+(3,1,1) = {"
+Pz
+Ov
+Ov
+Pz
+JI
+JI
+JI
+Io
+Io
+JI
+JI
+JI
+Pz
+Ov
+Ov
+Pz
+"}
+(4,1,1) = {"
+JI
+Io
+Io
+JI
+JI
+JE
+ET
+JA
+Kd
+AU
+US
+JI
+JI
+Io
+Io
+JI
+"}
+(5,1,1) = {"
+JI
+kt
+UA
+Iv
+fj
+ap
+wk
+ap
+Ur
+RJ
+RJ
+Dm
+JI
+UA
+nx
+JI
+"}
+(6,1,1) = {"
+JI
+kt
+kP
+Uu
+WV
+WV
+WV
+Ux
+Ux
+Br
+Ux
+Ux
+gx
+UA
+lb
+JI
+"}
+(7,1,1) = {"
+JI
+ku
+eG
+Iv
+JA
+WV
+BX
+BX
+BX
+BX
+HM
+aL
+JI
+Mq
+lb
+JI
+"}
+(8,1,1) = {"
+JI
+JI
+JI
+JI
+JI
+Uu
+JI
+JI
+JI
+JI
+Uu
+JI
+JI
+JI
+JI
+JI
+"}
+(9,1,1) = {"
+Pz
+JI
+JI
+JI
+if
+Vk
+JI
+kY
+kY
+JI
+VH
+MJ
+JI
+JI
+JI
+Pz
+"}
+(10,1,1) = {"
+Pz
+Pz
+Pz
+QI
+WV
+WV
+ii
+kY
+kY
+ii
+WV
+WV
+Kl
+Pz
+Pz
+Pz
+"}
+(11,1,1) = {"
+Pz
+Pz
+Pz
+JI
+xi
+Rl
+JI
+kY
+kY
+JI
+Rl
+WF
+JI
+Pz
+Pz
+Pz
+"}
+(12,1,1) = {"
+Pz
+Pz
+Pz
+JI
+JI
+Uu
+JI
+JI
+JI
+JI
+Uu
+JI
+JI
+Pz
+Pz
+Pz
+"}
+(13,1,1) = {"
+Pz
+Pz
+Pz
+JI
+MM
+WV
+qP
+CA
+CA
+Vd
+WV
+MM
+JI
+Pz
+Pz
+Pz
+"}
+(14,1,1) = {"
+Pz
+Pz
+Pz
+JI
+JI
+kx
+Wm
+TV
+OP
+Ur
+Bh
+JI
+JI
+Pz
+Pz
+Pz
+"}
+(15,1,1) = {"
+Pz
+Pz
+Pz
+Pz
+JI
+JI
+ii
+ii
+ii
+ii
+JI
+JI
+Pz
+Pz
+Pz
+Pz
+"}

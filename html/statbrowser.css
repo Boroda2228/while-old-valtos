@@ -1,0 +1,287 @@
+@font-face {
+    font-family: "zkr";
+    src: url("./zkr.ttf") format("truetype");
+}
+
+body {
+	font-family: zkr, Tahoma, Verdana, Geneva, sans-serif;
+	font-size: 14px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow-x: hidden;
+	background: #ffffff;
+	color: #000;
+	scrollbar-face-color: #242424;
+	scrollbar-arrow-color: #242424;
+	scrollbar-track-color: #090909;
+	scrollbar-3dlight-color: #080808;
+	scrollbar-darkshadow-Color: #080808;
+}
+
+::-webkit-scrollbar {
+	width: 4px;
+}
+
+body.dark {
+	background-color: #090909;
+	color: #aaaaaa;
+}
+
+body.gruvbox {
+	background-color: #1d2021;
+	color: #a89984;
+}
+
+#menu {
+	background-color: #F0F0F0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 32px;
+	width: 100%;
+	z-index: 100;
+}
+
+.dark #menu, .dark #menu {
+	background-color: #050505;
+}
+
+.gruvbox #menu, .gruvbox #menu {
+	background-color: #1d2021;
+}
+
+#statcontent {
+	padding: 34px 2px 2px 2px;
+}
+
+a {
+	color: black;
+	text-decoration: none
+}
+
+.dark a {
+	color: #d6d6d6;
+}
+
+.gruvbox a {
+	color: #fbf1c7;
+}
+
+a:hover, .dark a:hover, .gruvbox a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.button-container {
+	overflow-y: hidden;
+	white-space: pre-wrap;
+	padding: 0 2px;
+}
+
+.button {
+	background-color: #dfdfdf;
+	border-color: #cecece;
+	border-width: 1px;
+	border-style: solid;
+	color: rgba(0, 0, 0, 0.7);
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	margin: 0 1px;
+	cursor: pointer;
+	transition-duration: 0.25s;
+	min-width: 0px;
+	height: 28px;
+	width: 26px;
+}
+
+.dark button {
+	background-color: #000000;
+	border-color: #343434;
+	color: #d6d6d6;
+}
+
+.gruvbox button {
+	background-color: #1d2021;
+	border-color: #343434;
+	color: #fbf1c7;
+}
+
+.button:hover {
+	background-color: #ececec;
+	transition-duration: 0;
+}
+
+.dark button:hover {
+	background-color:  #d6d6d6;
+	color: #080808;
+}
+
+.gruvbox button:hover {
+	background-color:  #fbf1c7;
+	color: #080808;
+}
+
+.button:active, .button.active {
+	background-color: #000000;
+	color: black;
+	font-weight: bold;
+	border: 1px solid #cecece;
+}
+
+.dark .button:active, .dark .button.active {
+	background-color: #ffffff;
+	color: #d6d6d6;
+	border: 1px solid #343434;
+}
+
+.gruvbox .button:active, .gruvbox .button.active {
+	background-color: #ffffff;
+	color: #fbf1c7;
+	border: 1px solid #343434;
+}
+
+.grid-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid-item {
+	position: relative;
+	display: inline-flex;
+	width: 30%;
+	font-size: 11px;
+	white-space: pre-wrap;
+	padding: 3px 3px;
+	margin: 1px;
+	text-decoration: none;
+	overflow: visible;
+	border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (min-width: 620px) {
+	.grid-item {
+		width: 195px;
+	}
+}
+
+.grid-item:hover {
+	background: #000;
+}
+
+.dark .grid-item:hover {
+	background: #d6d6d6;
+}
+
+.gruvbox .grid-item:hover {
+	background: #fbf1c7;
+}
+
+.grid-item-text {
+	display: inline-block;
+	width: 100%;
+	margin: 0 -6px;
+	padding: 0 6px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	pointer-events: none;
+}
+
+.grid-item:hover {
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+}
+
+.dark .grid-item {
+	background: #090909;
+	border: 1px solid #202020;
+}
+
+.dark .grid-item:hover {
+	background: #d6d6d6;
+	color: #080808;
+	text-decoration: none;
+}
+
+.gruvbox .grid-item {
+	background: #1d2021;
+	border: 1px solid rgba(235, 219, 178, 0.4);
+}
+
+.gruvbox .grid-item:hover {
+	background: #fbf1c7;
+	color: #080808;
+	text-decoration: none;
+}
+
+.link {
+	display: inline;
+	background: none;
+	border: none;
+	padding: 7px 14px;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 13px;
+	margin: 2px 2px;
+}
+
+.dark .link {
+	color: #d6d6d6;
+}
+
+.gruvbox .link {
+	color: #fbf1c7;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+img {
+	-ms-interpolation-mode: nearest-neighbor;
+	image-rendering: pixelated;
+	border-bottom: 1px solid #343434;
+}
+
+@media only screen and (min-width: 520px) {
+	img {
+		width: 48px;
+		object-fit: cover;
+	}
+	#statcontent {
+		padding: 56px 2px 2px 2px;
+	}
+	#menu {
+		height: 48px;
+	}
+	.button {
+		height: 52px;
+		width: 52px;
+	}
+}
